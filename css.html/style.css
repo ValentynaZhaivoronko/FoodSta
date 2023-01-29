@@ -1,0 +1,126 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+:root {
+    --button: #BBF330;
+    --main-background: #F5F5F5;
+    --background-header: #FEFEFE;
+    --main-text: #2C2C2C;
+    --second-background: #FFE550;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--main-background);
+    font-size: 16px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/* <!=========header========> */
+.header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: var(--background-header);
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.list-nav {
+    margin-left: 28px;
+    color: var(--main-text);
+    font-size: 14px;
+}
+
+.button {
+    padding: 6px 18px;
+    background: var(--button);
+    border: 1px solid var(--button);
+    border-radius: 30px;
+}
+
+.header-button {
+    margin-left: 30px;
+}
+/* <!=========/header========> */
+
+/* /!=========Hero========> */
+
+.hero-secttion {
+    display: flex;
+}
+
+.hero-title {
+        font-size: 48px;
+        line-height: 120%;
+        width: 503px;
+        color: var(--main-text);
+        font-weight: 700;
+
+        margin-right: auto;
+        margin-top: 159px;
+        margin-bottom: 28px;
+        }
+
+.hero-text {
+        color: var(--main-text);
+        font-weight: 400;
+        width: 502px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+        }
+
+        .hero-img {
+            margin-left: auto;
+            margin-top: 26px;
+            border-radius: 269px;
+            border: 26px solid var(--second-background);
+            border-color: var(--second-background);
+        }
+
+/* /!=========/Hero========> */
