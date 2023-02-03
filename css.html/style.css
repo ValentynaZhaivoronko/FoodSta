@@ -197,12 +197,19 @@ margin-bottom: 32px;
 
 /* !=========/About========> */
 
+/* !=========Favorites========> */
+
+.container-favorites {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
 .title-favorites {
         font-weight: 700;
         font-size: 42px;
         line-height: 1.2;
         text-align: center;
-        margin-top: 100px;
+        
         margin-bottom: 20px;
         color: var(--main-text);
 }
@@ -212,6 +219,81 @@ margin-bottom: 32px;
         font-size: 16px;
         line-height: 1.2;
         text-align: center;
-    
+        margin-bottom: 81px;
         color: var(--main-text);
 }
+
+.favorites-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-img {
+    border: 16px solid var(--second-background);
+    padding: 25px 24px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+}
+
+.list-img:nth-child(3n) {
+    margin-right: 0;
+}
+
+.list-img:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+/* !=========/Favorites========> */
+
+/* !========= Customer ========> */
+
+.container-customers {
+    margin-top: 100px;
+
+    background-color: #FFE550;
+}
+
+.title-costumers {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.text-costumers {
+    margin-bottom: 32px;
+}
+
+.list-costumers {
+display: flex;
+}
+
+.list-costumers-say {
+    
+    margin-left: 16px;
+    margin-right: 123px;
+    margin-bottom: 134px;
+    background-color: var(--background-header);
+    border-radius: 0 28px 28px;
+}
+
+.list-costumers-text {
+    width: 473px;
+    padding: 58px 14px 106px 14px;
+}
+
+/* !========= /Customer ========> */
+
+/* !========= Subscribe ========> */
+
+.title-subscribe {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+}
+
+/* !========= /Subscribe ========> */
+
+
