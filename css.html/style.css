@@ -19,8 +19,10 @@ p {
     --button: #BBF330;
     --main-background: #F5F5F5;
     --background-header: #FEFEFE;
+    --white: #FFFFFF;
     --main-text: #2C2C2C;
     --second-background: #FFE550;
+    --green-two: #7EB101;
 }
 
 .body {
@@ -107,13 +109,20 @@ button {
         margin-bottom: 28px;
         }
 
-.hero-text {
+.text {
+        width: 500px;
         color: var(--main-text);
         font-weight: 400;
-        width: 502px;
+        
         line-height: 1.5;
         margin-bottom: 40px;
+        text-align: justify;
+        font-size: inherit;
         }
+
+.hero-text {
+        width: 502px;
+}
 
         .hero-img {
             margin-left: auto;
@@ -123,4 +132,86 @@ button {
             border-color: var(--second-background);
         }
 
-/* /!=========/Hero========> */
+/* !=========/Hero========> */
+
+/* !=========About========> */
+
+.container-about {
+    display: flex;
+}
+
+.img-apple {
+    margin-left: 60px;
+    margin-right: 160px;
+    margin-top: 177px;
+}
+
+.about-title {
+        margin-top: 260px;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        color: var(--main-text);
+}
+
+
+
+.list {
+    display: flex;
+}
+
+.list-about {
+margin-right: 67px;
+margin-bottom: 32px;
+}
+
+.list-about-title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.4;
+    margin-bottom: 16px;
+        color: var(--main-text);
+        width: 253px;
+}
+
+.about-text-list {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: justify;
+}
+
+.button-about {
+    font-weight: 500;
+        font-size: 13px;
+        line-height: 1.5;
+  
+        padding: 10px 22px;
+        background: var(--white);
+     
+    
+        border: 2px solid var(--green-two);
+        border-radius: 30px;
+}
+
+/* !=========/About========> */
+
+.title-favorites {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        color: var(--main-text);
+}
+
+.text-favorites {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+    
+        color: var(--main-text);
+}
