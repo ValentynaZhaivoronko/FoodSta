@@ -43,6 +43,11 @@ img {
 
 button {
     cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    border: 1px solid var(--button);
+    border-radius: 30px;
 }
 
 * {
@@ -50,9 +55,11 @@ button {
 }
 
 .container {
-    width: 1280px;
+    width: 1248px;
     padding-left: 16px;
     padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -62,6 +69,7 @@ button {
     align-items: center;
     height: 70px;
     background-color: var(--background-header);
+    box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
 }
 
 .nav {
@@ -75,19 +83,18 @@ button {
 
 .list-nav {
     margin-left: 28px;
-    color: var(--main-text);
+   
     font-size: 14px;
 }
 
-.button {
-    padding: 6px 18px;
-    background: var(--button);
-    border: 1px solid var(--button);
-    border-radius: 30px;
+.link {
+color: var(--main-text);
 }
 
 .header-button {
     margin-left: 30px;
+    background: var(--button);
+    padding: 6px 18px;
 }
 /* <!=========/header========> */
 
@@ -95,6 +102,7 @@ button {
 
 .hero-secttion {
     display: flex;
+    background-color: var(--main-background);
 }
 
 .hero-title {
@@ -130,6 +138,11 @@ button {
             border-radius: 269px;
             border: 26px solid var(--second-background);
             border-color: var(--second-background);
+        }
+
+        .hero-button {
+            background-color: var(--button);
+            padding: 6px 18px;
         }
 
 /* !=========/Hero========> */
@@ -183,16 +196,9 @@ margin-bottom: 32px;
 }
 
 .button-about {
-    font-weight: 500;
-        font-size: 13px;
-        line-height: 1.5;
-  
         padding: 10px 22px;
         background: var(--white);
      
-    
-        border: 2px solid var(--green-two);
-        border-radius: 30px;
 }
 
 /* !=========/About========> */
@@ -248,10 +254,13 @@ margin-bottom: 32px;
 
 /* !========= Customer ========> */
 
-.container-customers {
-    margin-top: 100px;
+.container-customers-one {
+padding-left: 16px;
+}
 
-    background-color: #FFE550;
+.container-customers {
+    padding-top: 100px;
+   
 }
 
 .title-costumers {
@@ -267,11 +276,10 @@ margin-bottom: 32px;
 
 .list-costumers {
 display: flex;
+
 }
 
 .list-costumers-say {
-    
-    margin-left: 16px;
     margin-right: 123px;
     margin-bottom: 134px;
     background-color: var(--background-header);
@@ -294,6 +302,129 @@ display: flex;
         margin-bottom: 20px;
 }
 
+.text-subscribe {
+    width: 640px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.subscribe-container {
+    display: flex;
+} 
+
+.btn-subscribe {
+    background-color: var(--button);
+    padding: 11px 22px;
+}
+
 /* !========= /Subscribe ========> */
+
+/* !========= Footer ========> */
+
+.footer-container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* .footer-left {
+   
+} */
+
+.nav-footer-top {
+    display: flex;
+    margin-bottom: 129px;
+    justify-items: center;
+        align-items: center;
+
+}
+
+.logo-footer {
+    margin-right: 148px;
+}
+
+.nav-footer {
+    display: flex;
+}
+
+.list-footer:not(:last-child) {
+    margin-right: 28px;
+}
+
+.footer-list-link {
+    display: flex;
+}
+
+.footer-link {
+        margin-right: 20px;
+        font-size: 12px;
+        line-height: 1.2;
+     
+        
+        
+}
+
+.footer-link-a {
+            color: var(--green-two);
+            text-decoration-line: underline;
+}
+
+.footer-right {
+    margin-left: 320px;
+}
+
+.title-footer-right {
+    margin-bottom: 12px;
+
+}
+
+.button-footer {
+        margin-bottom: 12px;
+        padding: 11px 22px;
+        background: var(--white);
+}
+
+.text-right-footer {
+    margin-bottom: 80px;
+}
+
+.info-footer {
+    display: inline-block;
+    width: 174px;
+    font-size: 12px;
+    margin-left: 224px;
+}
+
+
+/* !========= /Footer ========> */
+
+/* !========= Overlay  ========> */
+
+.overlay-about {
+    height: 824px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imeges/fon-top-standart.jpg);
+}
+
+.overlay-customer {
+    height: 647px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imeges/fon-bottom-standart.jpg);
+}
+
+.overlay-footer {
+    height: 266px;
+    max-width: 1211px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imeges/fruit-futer.jpg);
+}
+
+/* !========= /Overlay Footer ========> */
 
 

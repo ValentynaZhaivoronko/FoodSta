@@ -36,7 +36,8 @@
     <main>
       <!-- hero -->
       <section class="container hero-secttion">
-        <div class="hero-left">
+        
+          <div class="hero-left">
           <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
           <p class="hero-text text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -54,11 +55,13 @@
           width="528"
           height="528"
         />
+      
+        
       </section>
       <!--About-->
-      <section class="container container-about">
-        
-        <img class="img-apple" src="./imeges/aple.png" alt="apple" />
+      <section class="overlay-about">
+        <div class="container container-about">
+          <img class="img-apple" src="./imeges/aple.png" alt="apple" />
         <div class="about-text">
           <h2 class="about-title">What<span>&#8217</span>s Special About Our Offerings</h2>
         <p class="about-text text">
@@ -82,13 +85,16 @@
             </p>
           </li>
         </ul>
-        <button class="button-about" type="button"><b>Order Now</b></button>
+        <button class="button button-about" type="button"><b>Order Now</b></button>
         </div>
+      </div>
+        
         
       </section>
       <!-- Favorites -->
-      <section class="container container-favorites">
-        <h2 class="title-favorites">Some of Our Favorites</h2>
+      <section class="">
+        <div class="container container-favorites">
+          <h2 class="title-favorites">Some of Our Favorites</h2>
         <p class="text-favorites">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="favorites-img">
           <li class="list-img">
@@ -104,10 +110,13 @@
             <img src="./imeges/borshch.png" alt="borshch" width="315" height="315"/>
           </li>
         </ul>
+      </div>
+        
       </section>
       <!-- Customers Say -->
-      <section class="container container-customers">
-        <h2 class="title-costumers">What our Customers Say</h2>
+      <section class="overlay-customer container-customers-one">
+        <div class="container container-customers">
+          <h2 class="title-costumers">What our Customers Say</h2>
         <p class="text-costumers">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <ul class="list-costumers">
           <li class="list-costumers-say">
@@ -125,30 +134,56 @@
             </p>
           </li>
         </ul>
+      </div>
+        
       </section>
       <!--Subscribe-->
-      <section class="container subscribe-container">
-        <h2 class="title-subscribe">Subscribe To Get Special Offers</h2>
+      <section class="container">
+        <div class="subscribe-container">
+        <div >
+          <h2 class="title-subscribe">Subscribe To Get Special Offers</h2>
         <p class="text-subscribe">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique.
         </p>
         <button class="button btn-subscribe" type="button"><b>Subscribe</b></button>
+      </div>
+        
         <img class="img-subscribe" src="./imeges/banan.png" alt="banana" />
+        </div>
       </section>
       <!-- footer -->
-      <footer class="container">
-        <img src="" alt="" />
-        <nav>
-          <ul>
-            <li class="list"><a class="link" href="">Home</a></li>
-            <li class="list"><a class="link" href="">About</a></li>
-            <li class="list"><a class="link" href="">Service</a></li>
-            <li class="list"><a class="link" href="">Menu</a></li>
-            <li class="list"><a class="link" href="">Contact</a></li>
-          </ul>
-          <p>By subscribing you agree to with our Privacy Policy</p>
-        </nav>
+      <footer class="overlay-footer">
+        <div class="container footer-container">
+           <div class="footer-left">
+            <div class="nav-footer-top">
+              <img class="logo-footer" src="./imeges/logo.png" alt="logo" />
+              <nav>
+                <ul class="nav-footer">
+                  <li class="list-footer"><a class="link" href="">Home</a></li>
+                  <li class="list-footer"><a class="link" href="">About</a></li>
+                  <li class="list-footer"><a class="link" href="">Service</a></li>
+                  <li class="list-footer"><a class="link" href="">Menu</a></li>
+                  <li class="list-footer"><a class="link" href="">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+                
+            
+              <ul class="footer-list-link">
+                <li class="footer-link"><a class="footer-link-a" href="">Privacy Policy</a></li>
+                <li class="footer-link"><a class="footer-link-a" href="">Terms of Service</a></li>
+                <li class="footer-link"><a class="footer-link-a" href="">Cookies Settings</a></li>
+              </ul>
+            </div>
+            <div class="footer-right">
+              <h3 class="title-footer-right">Subscribe</h3>
+              <button class="button button-footer" type="button"><b>Subscribe</b></button>
+              <p class="text-right-footer">By subscribing you agree to with our <span class="footer-link-a">Privacy Policy</span></p>
+              <p class="info-footer">2022 FoodSta. All right reserved.</p>
+            </div>
+      </div>
+        
       </footer>
     </main>
   </body>
